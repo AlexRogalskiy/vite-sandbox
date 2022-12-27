@@ -1,15 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
+import {Button} from "ui"
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-          <>
-          <h1>APPLICATION</h1>
-          </>
-  )
+    return (
+        <>
+            <h1>APPLICATION</h1>
+            <Button text="BUTTON"/>
+        </>
+    )
 }
 
 export default App
